@@ -1,0 +1,48 @@
+// 📁 browser_extension/manifest.json
+{
+  "manifest_version": 3,
+  "name": "Off-Campus Job Assistant",
+  "version": "1.0.0",
+  "description": "AI-powered job application assistant for off-campus placements",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "tabs",
+    "notifications"
+  ],
+  "host_permissions": [
+    "*://*.linkedin.com/*",
+    "*://*.indeed.com/*",
+    "*://*.glassdoor.com/*",
+    "http://localhost:5000/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Off-Campus Assistant",
+    "default_icon": {
+      "16": "icons/job16.png",
+      "48": "icons/job48.png",
+      "128": "icons/job128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background_service.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.linkedin.com/jobs/*",
+        "*://*.indeed.com/*",
+        "*://*.glassdoor.com/Job/*"
+      ],
+      "js": ["content_script.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "icons": {
+    "16": "icons/job16.png",
+    "48": "icons/job48.png",
+    "128": "icons/job128.png"
+  }
+}

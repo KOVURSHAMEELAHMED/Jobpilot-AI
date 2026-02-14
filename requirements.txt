@@ -1,0 +1,9 @@
+selenium>=4.0.0
+webdriver-manager
+requests
+beautifulsoup4
+openai
+python-dotenv
+scikit-learn
+numpy
+pandas

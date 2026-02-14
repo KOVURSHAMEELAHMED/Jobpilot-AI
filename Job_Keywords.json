@@ -1,0 +1,63 @@
+{
+  "categories": {
+    "software_development": {
+      "keywords": [
+        "Software Engineer",
+        "Software Developer",
+        "Full Stack Developer",
+        "Backend Developer",
+        "Frontend Developer",
+        "Web Developer",
+        "Python Developer",
+        "Java Developer",
+        "JavaScript Developer",
+        "React Developer"
+      ],
+      "skills": ["Python", "JavaScript", "React", "Node.js", "SQL", "Git", "REST APIs"]
+    },
+    "automation_qa": {
+      "keywords": [
+        "Automation Engineer",
+        "Test Automation Engineer",
+        "QA Automation",
+        "SDET",
+        "Quality Assurance Engineer",
+        "Selenium Automation"
+      ],
+      "skills": ["Selenium", "Python", "Test Automation", "Pytest", "Jenkins", "Docker"]
+    },
+    "data_science": {
+      "keywords": [
+        "Data Analyst",
+        "Data Scientist",
+        "Machine Learning Engineer",
+        "Business Analyst",
+        "Data Engineer"
+      ],
+      "skills": ["Python", "SQL", "Pandas", "NumPy", "Machine Learning", "Statistics"]
+    }
+  },
+  "fresher_keywords": [
+    "Fresher",
+    "New Grad",
+    "Entry Level",
+    "Graduate",
+    "Junior",
+    "Trainee",
+    "0-1 years",
+    "0-2 years",
+    "Recent Graduate"
+  ],
+  "exclude_keywords": [
+    "Senior",
+    "Lead",
+    "Principal",
+    "Architect",
+    "Manager",
+    "Director",
+    "VP",
+    "5+ years",
+    "10+ years",
+    "Mid-level"
+  ]
+}

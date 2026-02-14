@@ -1,0 +1,16 @@
+{
+  "project": "Test",
+  "browser_settings": {
+    "active_portals": ["linkedin"],
+    "job_searches": [
+      {
+        "portal": "linkedin",
+        "keywords": ["test"],
+        "location": "Remote"
+      }
+    ],
+    "daily_limit": 5,
+    "delay_between_applications": 30,
+    "max_per_search": 2
+  }
+}
